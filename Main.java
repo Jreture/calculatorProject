@@ -20,7 +20,7 @@ class Calculate {
 		//	곱하기
 	}
 	static int div (int n1, int n2) {
-		return ;
+		return n1 / n2;
 		// 나누기
 	}
 }
