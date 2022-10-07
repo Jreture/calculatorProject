@@ -16,7 +16,7 @@ class Calculate {
 		//	빼기
 	}
 	static int mul (int n1, int n2) {
-		return ;
+		return n1 * n2;
 		//	곱하기
 	}
 	static int div (int n1, int n2) {
@@ -30,7 +30,7 @@ public class Main{
 		// 값을 받기 위해서 Scanner를 생성
 		Scanner scan = new Scanner(System.in);
 		// 클래스 변수 선언
-		Calculate calc = new Calculate();
+		//Calculate calc = new Calculate();
 		
 		
 		// numbers
@@ -56,9 +56,9 @@ public class Main{
 				System.out.println("Answer -> "+num1+" + "+num2+" = "+Calculate.add(num1, num2));
 			break;
 			
-			// minus
+			// sub
 			case '-':
-				System.out.println("Answer -> "+num1+" - "+num2+" = "+Calculate.min(num1, num2));
+				System.out.println("Answer -> "+num1+" - "+num2+" = "+Calculate.sub(num1, num2));
 			break;
 			
 			// multiple
