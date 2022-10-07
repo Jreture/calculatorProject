@@ -7,7 +7,7 @@ class Calculate {
 	// -> int n1, int n2의 값을 받아와서 계산하기
 	
     static int add (int n1, int n2) {
-		return ;
+		return n1 + n2;
 		//	더하기
 	}
 	static int min (int n1, int n2) {
