@@ -10,8 +10,9 @@ class Calculate {
 		return n1 + n2;
 		//	더하기
 	}
-	static int min (int n1, int n2) {
-		return ;
+	static int sub (int n1, int n2) {
+		System.out.printf("%d - %d = %d 입니다.\n", n1, n2 , n1 - n2);
+		return n1 - n2;
 		//	빼기
 	}
 	static int mul (int n1, int n2) {
