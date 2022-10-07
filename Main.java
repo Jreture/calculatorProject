@@ -7,20 +7,19 @@ class Calculate {
 	// -> int n1, int n2의 값을 받아와서 계산하기
 	
     static int add (int n1, int n2) {
-		return ;
+		return 0;
 		//	더하기
 	}
 	static int min (int n1, int n2) {
-		return ;
+		return 0;
 		//	빼기
 	}
 	static int mul (int n1, int n2) {
-		return ;
+		return 0;
 		//	곱하기
 	}
 	static int div (int n1, int n2) {
-		return ;
-		// 나누기
+		return n1/n2 ;
 	}
 }
 public class Main{
