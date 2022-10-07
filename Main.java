@@ -22,7 +22,7 @@ class Calculate {
 		return n1/n2 ;
 	}
 }
-//test Feature Two 
+//test Feature Three
 public class Main{
 
 	public static void main(String[] args) {
